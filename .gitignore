@@ -27,3 +27,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# node_modules contain the code for the dependencies that your project relies on
+node_modules/*
+
+# IntelliJ environment files (not necessary if you aren't using IntelliJ)
+.idea/*
+
+# Build files
+dist/*
